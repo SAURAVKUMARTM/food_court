@@ -13,7 +13,8 @@ class LogoPage extends HookWidget {
     useEffect(
       () {
         Timer(const Duration(seconds: 2),
-            () => context.pushReplacement("introfirst"));
+            () => context.pushReplacementNamed("introfirst"));
+
         return null;
       },
     );
