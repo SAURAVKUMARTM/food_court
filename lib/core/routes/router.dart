@@ -12,7 +12,7 @@ import 'package:go_router/go_router.dart';
 
 final router = GoRouter(initialLocation: "/", routes: [
   GoRoute(
-    path: "/logopage",
+    path: "/",
     name: "logopage",
     builder: (context, state) => const LogoPage(),
   ),
@@ -32,8 +32,8 @@ final router = GoRouter(initialLocation: "/", routes: [
     builder: (context, state) => const Pages(),
   ),
   GoRoute(
-    path: "/homepage",
-    name: "homepage",
+    path: "/home",
+    name: "home",
     builder: (context, state) => const HomePage(),
   ),
   GoRoute(
